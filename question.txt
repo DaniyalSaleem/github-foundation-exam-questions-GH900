@@ -648,3 +648,539 @@ Exclusive support for Visual Studio Code with no integration for other IDEs
 Removal of code completion in favor of documentation search only
 An IDE-native chat experience that uses GPT-4 to explain code, write tests, and suggest fixes
 Always-on real time comments for every line as you type in the editor
+
+Question 81
+
+Which three files can a user automatically add while creating a new repository?
+A. README, .gitignore, and LICENSE
+B. README, .git, and DOCS
+C. LICENSE, DOCS, and .gitignore
+D. LICENSE, .git, and README
+
+Question 82
+
+What type of operations has Git been optimized for?
+A. remote collaboration and real-time editing
+B. web development and browser-based coding
+C. local file manipulation and offline work
+D. cloud-based operations and synchronization
+
+Question 83
+
+Which of the following default workflows are available as part of GitHub project automation? (Choose three)
+A. "Pull request merged"
+B. "Label added to issue"
+C. "Auto-archive items"
+D. "Item closed"
+E. "Pull request opened"
+
+Question 84
+
+How can a user resume an existing Codespace that is bound to a repository? (Choose two)
+A. Browse to the repository in GitHub.com, press the comma "," key and select the Codespace
+B. Browse to the repository in GitHub.com and press the period "." key
+C. Use the git CLI with the codespace parameter
+D. Open https://github.com/codespaces
+ in the browser and select the repository
+
+Question 85
+
+In GitHub flow, what is the primary operation when a pull request is approved?
+A. A release issue is created
+B. The changes are deployed
+C. The feature branch is merged
+D. A git tag is created
+
+Question 86
+
+For which of the following does GitHub provide hosted runners?
+A. Linux, Windows, and macOS
+B. Docker
+C. Kubernetes
+D. AWS, Azure, and GCP
+
+Question 87
+
+Which of the following is the best description of a Git commit?
+A. a record of the most recent changes
+B. a log message describing the purpose of changes
+C. a snapshot of the entire repository at a specific point in time
+D. a series of changes made to files
+
+Question 88
+
+Which of the following best describes GitHub flow?
+A. branching model using feature branches + multiple primary branches
+B. a lightweight workflow that allows safe experimentation
+C. strategy with separate branches for each release
+D. strict workflow enforcing linear development
+
+Question 89
+
+Which mechanisms can you use to personalize Codespaces for yourself? (Choose two)
+A. operating system
+B. IDE plug-ins
+C. branch protections
+D. dotfiles
+E. settings sync
+F. devcontainer
+
+Question 90
+
+What qualifier finds issues that mention a certain user?
+A. mentioned:
+B. threads:
+C. mentions:
+D. @mentioned:
+
+Question 91
+
+Why are GitHub pull request templates recommended for teams? (Choose two)
+A. to provide an easy-to-fill-out form for creating pull requests
+B. to automatically trigger GitHub Actions workflows
+C. to automatically label or assign newly created pull requests
+D. to easily coerce existing pull requests into a standardized format
+
+Question 92
+
+Which statement most accurately describes secret gists?
+A. Secret gists require GitHub Enterprise
+B. Anyone with the URL for the gist can view the gist
+C. Users with assigned access can view the gist
+D. Anyone can see the gist on the Discover page
+
+Question 93
+
+Which version control system is GitHub built on?
+A. Git
+B. Perforce
+C. Subversion
+D. Mercurial
+
+Question 94
+
+Which Discussion category allows a user to mark a response as the answer?
+A. General
+B. Ideas
+C. Q&A
+D. Polls
+
+Question 95
+
+What should a user follow to see public activity on their personal dashboard? (Choose two)
+A. enterprises
+B. people
+C. teams
+D. organizations
+E. stars
+
+Question 96
+
+What are achievements on a GitHub user profile?
+A. virtual trophies awarded for completing coding challenges
+B. number of stars received
+C. special recognition for significant contributions and milestones
+D. number of repositories owned
+
+Question 97
+
+Which GitHub features enhance collaboration?
+A. real-time collaboration via pair programming
+B. git repository hosting & sharing
+C. code review and discussion through issues & pull requests
+D. automated testing and code quality analysis
+
+Question 98
+
+Who can be assigned to an issue or pull request? (Choose two)
+A. anyone with write permissions to the repository
+B. anyone with an enterprise GitHub account
+C. anyone who has commented
+D. anyone who has a personal GitHub account
+
+Question 99
+
+Which GitHub feature supports polling?
+A. Wikis
+B. Projects
+C. Discussions
+D. Issues
+
+Question 100
+
+What is the purpose of a GitHub repository?
+A. to provide a collaborative space where developers can share and manage code
+B. cloud hosting for documentation
+C. a version control system designed for small projects
+D. a folder storing project files locally
+
+Question 101
+
+Which of the following permissions can be enabled or disabled at the repository level? (Choose two)
+A. repository naming convention
+B. repository deletion and transfer
+C. repository secrets
+D. repository visibility change
+
+Question 102
+
+Which keywords are used to link a pull request to an issue? (Choose two)
+A. fix
+B. merge
+C. join
+D. closed
+E. connects
+F. resolves
+
+Question 103
+
+GitHub Copilot leverages an AI model trained on:
+A. public, internal, and private repos in your GitHub account
+B. public GitHub repositories
+C. public + internal org repositories
+D. code samples from online forums
+
+Question 104
+
+What are advantages of GitHub Projects over GitHub Projects (classic)? (Choose two)
+A. Copilot enabled
+B. Multiple layout views
+C. Insights
+D. Third-party tool integration
+
+Question 105
+
+What is the primary goal of GitHub in terms of integrating tools and services?
+A. to develop proprietary tools
+B. to bring developers’ preferred tools together in one place
+C. create a unified standardized ecosystem
+D. diverse range of tools per need
+
+Question 106
+
+Employee needs to find all issues within org "Avocado" labeled "guacamole" containing "404 error". Which option is correct?
+A. Go to org settings
+B. Enter query: org:Avocado is:issue label:guacamole "404 error"
+C. Go to Avocado org → Issues
+D. Enter query with incorrect formatting
+
+Question 107
+
+Where can a user manually link a pull request to an issue?
+A. right sidebar of PR under Assignees
+B. right sidebar under Development
+C. in the description of the issue
+D. in the comment section
+
+Question 108
+
+What should you append to the link to see who starred a repo?
+A. stargazers
+B. starwatcher
+C. stars
+D. starviewers
+
+Question 109
+
+While maintaining gist history, what is the most efficient way to create a new gist based on an existing one?
+A. Fork the gist
+B. Clone the gist
+C. Request to be added
+D. Create new and copy manually
+
+Question 110
+
+How are issues and pull requests used?
+A. Issues are used to push bug fixes… PRs push feature requests
+B. Issues are used to track ideas, document feedback, and share information
+C. (duplicate of B)
+D. Issues push bug fixes… PRs track ideas
+
+Question 111
+
+Which Insights feature allows users to view repository activity including pull requests, issues, and commits?
+A. Pulse
+B. Code frequency
+C. Traffic
+D. Activity overview
+
+Question 112
+
+What is a benefit of using GitHub Enterprise Cloud with Enterprise Managed Users (EMU)?
+A. Automatically validates user interactions
+B. Provides centralized control and streamlined management of user accounts
+C. Additional collaboration features
+D. Enables access to protected resources using SAML
+
+Question 113
+
+What template types are available when creating an issue template? (Choose three)
+A. Custom template
+B. Bug report
+C. Security notification
+D. Feature request
+E. Standard template
+
+Question 114
+
+A centralized version control system is a system that:
+A. requires developers to manually track
+B. relies on a central server to store the entire project history
+C. ensures each developer has local copy of history
+D. stores files on cloud server
+
+Question 115
+
+As a repository admin, which alerts can you see in the Security tab? (Choose three)
+A. Secret Scanning
+B. Dependabot
+C. Branch Protection
+D. Push Protection Bypass
+E. Code Scanning
+
+Question 116
+
+Without advanced search syntax, what can GitHub’s basic filters show you? (Choose two)
+A. everything assigned to your team
+B. everything you have commented on
+C. your project
+D. your issues
+E. everything assigned to you
+
+Question 117
+
+What are two recommended ways to improve repository discoverability? (Choose two)
+A. Create a README file describing the repository
+B. Register the repo with GitHub search
+C. Add labels
+D. Add topics to classify the repository
+
+Question 118
+
+Draft Pull Requests – which statement is true?
+A. Cannot be merged; code owners not requested
+B. Can be merged; code owners not requested
+C. Can be merged, and code owners are automatically requested
+D. Cannot be merged; code owners requested
+
+Question 119
+
+Which of the following are characteristics of GitHub Teams? (Choose two)
+A. Teams require access to at least one repository
+B. Team visibility can be visible or secret
+C. Teams can be nested
+D. Teams have a maximum size of 100 users
+
+Question 120
+
+When creating a repository from a template, what will the new repository not inherit?
+A. default branch
+B. contributors
+C. pull requests
+D. commit history
+
+Question 121
+
+The difference between GitHub Enterprise Server (GHES) and GitHub Enterprise Cloud (GHEC) is:
+A. can be deployed on both Windows and Linux
+B. is a self-hosted solution that allows organizations full control
+C. cannot enable rate limiting
+D. includes authentication with SAML single sign-on
+
+Question 122
+
+As a user, what feature can you use to merge proposed changes?
+A. discussions
+B. projects
+C. issues
+D. pull requests
+
+Question 123
+
+Which of the following is a key characteristic of GitHub Projects?
+A. ability to import Gantt charts from MS Project
+B. ability to create and customize multiple views
+C. ability to enforce required fields
+D. ability to visualize commit history
+
+Question 124
+
+What is the difference between an organization member and an outside collaborator?
+A. Outside collaborators cannot be given admin role
+B. Organization base permissions do not apply to outside collaborators
+C. Outside collaborators do not consume paid licenses
+D. 2FA is not required for outside collaborators
+
+Question 125
+
+Which of the following are components of GitHub Actions? (Choose multiple)
+A. jobs
+B. CI/CD
+C. agents
+D. octokit
+E. JavaScript
+F. steps
+G. events
+
+Question 126
+
+Pull requests can only be created between two branches that are:
+A. the same
+B. authored by different users
+C. different
+D. authored by the same user
+
+Question 127
+
+What are all repository visibility options in GitHub Enterprise?
+A. public, internal, and private
+B. public, private
+C. external, public, and private
+D. external, private
+
+Question 128
+
+Which statement most accurately describes who can access a repository wiki?
+A. Wikis are public
+B. Wikis will not be visible until shared
+C. Wikis are only viewable by repository admins
+D. Wikis can be viewed by people with Read access
+
+Question 129
+
+Which of the following steps are part of the Codespaces lifecycle? (Choose three)
+A. Install
+B. Rollback
+C. Clone
+D. Rebuild
+E. Delete
+F. Create
+G. Commit
+
+Question 130
+
+Which of the following attributes are on the Milestone page? (Choose two)
+A. GitHub Action workflows needed for milestone
+B. Summary list of Projects tagged to the milestone
+C. milestone completion percentage
+D. list of open/closed issues
+
+Question 131
+
+What is a Git remote?
+A. a branch in the repository
+B. a reference to a repository hosted elsewhere
+C. a local copy of the repository
+D. a test repository
+
+Question 132
+
+What steps must you follow to use GitHub Copilot? (Choose two)
+A. Sign disclaimer
+B. Sign up for Copilot & enable
+C. Install Copilot IDE extension
+D. Store projects on GitHub
+E. Install Copilot App
+
+Question 133
+
+Which syntax is used for authoring saved replies?
+A. Markdown
+B. HTML
+C. YAML
+D. Markup
+
+Question 134
+
+Which of the following are counted in the contribution graph? (Choose two)
+A. pull requests created
+B. public repositories
+C. commits made
+D. issues closed
+E. followers
+
+Question 135
+
+Workflows can reference actions in (Choose three):
+A. enterprise marketplace
+B. any public repository
+C. Docker Hub
+D. GitHub Packages
+E. same repository
+
+Question 136
+
+Which of the following can you do to highlight a discussion?
+A. Save
+B. Create issue
+C. Star
+D. Pin
+
+Question 137
+
+Which of the following is a restriction for EMUs?
+A. Users cannot create public repos
+B. GitHub teams must link to IdP groups
+C. Organization base permissions cannot apply
+D. Custom roles unavailable
+
+Question 138
+
+Which of the following is always true about Alpha/Beta?
+A. Alpha features not available to public
+B. Alpha features documented
+C. Alpha & Beta guarantee SLAs
+D. Beta offers technical support
+
+Question 139
+
+New open source contributors can receive funding from GitHub Sponsors...
+A. equal to 95%
+B. including GitHub matching funds
+C. via PayPal
+D. after setting profile
+
+Question 140
+
+What is the difference between Git and GitHub?
+A. Git is centralized; GitHub is cloud-based
+B. Git is cloud hosting; GitHub distributed VCS
+C. Git/GitHub same tool
+D. Git tracks file changes, GitHub is a collaboration platform
+
+Question 141
+
+Which GitHub tool is best to quickly modify a batch of files?
+A. git CLI
+B. github.dev
+C. GitHub Desktop
+D. Codespaces
+E. GitHub Mobile
+
+Question 142
+
+How is github.dev different than Codespaces?
+A. Extensions supported fully
+B. Free monthly quota
+C. Codespaces provides terminal access
+D. Codespaces available in browser
+
+Question 143
+
+Copilot for Individuals offers which features not in Copilot for Business? (Choose two)
+A. multi-line suggestions
+B. support personal GitHub accounts
+C. org policy management
+D. blocks matching public code
+E. telemetry
+F. VPN proxy support
+
+Question 144
+
+Which 2FA methods can you use? (Choose three)
+A. security questions
+B. security keys
+C. single sign-on
+D. GitHub mobile
+E. authenticator app
+F. SMS
