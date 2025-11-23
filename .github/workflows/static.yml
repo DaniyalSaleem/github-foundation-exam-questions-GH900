@@ -10,32 +10,27 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Upload site files
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: |
-            Exam.html
-            question.txt
-            README.md
-
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
+    runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "."   # upload only root files (index.html + question.txt)
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
